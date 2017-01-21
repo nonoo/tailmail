@@ -1,0 +1,12 @@
+{
+	"toEmails": ["mail1@host1.com", "mail2@host2.com"],
+	"fromEmail": "alert@server.com",
+	"subject": "Alert email from tailmail",
+	"smtpUser": "",
+	"smtpPass": "",
+	"smtpHost": "localhost",
+	"smtpPort": 25,
+	"logFile": "/var/log/syslog",
+	"mailLineCount": 20,
+	"regExp": ".* brandmeister: .*is not valid$"
+}
