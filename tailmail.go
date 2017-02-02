@@ -84,7 +84,7 @@ func main() {
 	flag.StringVar(&configFileName, "c", configFileName, "config file to use, default: config.json")
 	flag.Parse()
 
-	cf, err := os.Open("config.json")
+	cf, err := os.Open(configFileName)
 	if err != nil {
 		log.Fatal(err)
 	}
